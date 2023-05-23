@@ -24,7 +24,7 @@ camera.position.set(0, 10, 20);
 controls.update();
 
 const loader = new GLTFLoader();
-const gltf = await loader.loadAsync("test.glb");
+const gltf = await loader.loadAsync("VirtualInMoov.glb");
 scene.add(gltf.scene);
 
 let OOI = {};
